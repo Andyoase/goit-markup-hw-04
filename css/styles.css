@@ -216,6 +216,35 @@ nav li a:hover {
     color: #ffffff;
 }
 
+.button-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 4px;
+}
+
+.button {
+    font-family: var(--link-text);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 27px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1) ;
+    border: none;
+}
+
+.button-service:hover {
+    background-color: rgba(24, 140, 232, 1);
+}
+
+.button:hover {
+   background-color: rgba(24, 140, 232, 1);
+}
+
 .group-container{
     padding: 94px 0;
 }
@@ -498,6 +527,7 @@ a {
 
 .filters button:hover {
     color: var(--link-background-color);
+    border-radius: 4px;
 }
 
 
