@@ -216,7 +216,7 @@ nav li a:hover {
     color: #ffffff;
 }
 
-.button-service {
+.studio-page .button-service {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,9 +224,9 @@ nav li a:hover {
     width: 200px;
     background-color: rgba(33, 150, 243, 1);
     border-radius: 4px;
-}
-
-.button {
+    }
+    
+.studio-page .button-service {
     font-family: var(--link-text);
     font-weight: 700;
     font-size: 16px;
@@ -237,13 +237,10 @@ nav li a:hover {
     border: none;
 }
 
-.button-service:hover {
+.studio-page .button-service:hover {
     background-color: rgba(24, 140, 232, 1);
 }
 
-.button:hover {
-   background-color: rgba(24, 140, 232, 1);
-}
 
 .group-container{
     padding: 94px 0;
@@ -441,6 +438,10 @@ footer {
     margin-left: 50px ;
 }
 
+.current {
+    color: #2196f3;
+}
+
 a {
     color:#0060b6;
     text-decoration: none;
@@ -518,18 +519,16 @@ a {
 }
 
 .filters button :focus {
-    color: var(--link-hover-color) ;
-}
-
-.filters button:hover {
+    color: var(--link-background-color);
     background-color: var(--link-hover-color);
+    border-radius: 4px;
 }
 
 .filters button:hover {
     color: var(--link-background-color);
+    background-color: var(--link-hover-color);
     border-radius: 4px;
 }
-
 
 .products-list {
     list-style: none;
