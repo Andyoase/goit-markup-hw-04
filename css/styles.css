@@ -298,12 +298,6 @@ nav li a:hover {
     margin-bottom: 15px;
 }
 
-.rectangle {
-    width: 270px;
-    height: 120px;
-    radius:  4px;
-    background-color: rgba(245, 244, 250, 1);
-}
 
 p {
     font-family: var(--link-text);
