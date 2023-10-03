@@ -225,16 +225,27 @@ nav li a:hover {
 
 .banner-section {
     background: url("../images/banner-background-img.png");
-    background-color: rgba(196, 196, 196, 1);
-}
-
-
-.banner-section {
     height: 600px;
+    max-width: 1600px;
+    margin: auto;
     background-color: #2F303A;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
 }
+
+.banner-section::after {
+    content: "";
+    position: absolute;
+    height: 600px;
+    background-color: rgba(196, 196, 196, 0.3);
+    z-index: 1;
+    display: block;
+    top: 80px;
+    max-width: 1600px;
+    width: 100%;
+}
+
 
 .banner-container {
     display: flex;
@@ -242,6 +253,8 @@ nav li a:hover {
     align-items: center;
     justify-content: center;
     height: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 .banner-section h1 {
@@ -376,11 +389,14 @@ h5 {
     justify-content: space-around;
     height: 628px;
     align-items: center;
+    
 }
 
-.employe-container  {
-  border-radius: 0px,0px,4px,4px ;
+.employe-container li {
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 .employe-container h3 {
     font-style: var(--link-text);
@@ -420,21 +436,27 @@ h5 {
     margin-bottom: 30px;
 }
 
-.client1 {
-    border-radius: 1px;
-    border-color: rgba(175, 177, 184, 1);
-}
 
 .customers-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 4px;
+    border: 1px rgba(175, 177, 184, 1);
 }
 
 footer {
     background: #2F303A;
     padding: 60px 0;
     
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 100px;
 }
 
 .footer-container address,
@@ -454,6 +476,21 @@ footer {
 
 .logo-container {
     margin-bottom: 25px;
+}
+
+.social {
+    font-family: var(--link-text);
+    font-weight: 700;
+    color:rgba(255, 255, 255, 1);
+    align-content: baseline;
+}
+
+.footer-icons {
+  width: 206px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
