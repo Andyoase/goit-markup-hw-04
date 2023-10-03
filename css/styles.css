@@ -232,6 +232,8 @@ nav li a:hover {
 .banner-section {
     height: 600px;
     background-color: #2F303A;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-container {
@@ -284,18 +286,19 @@ nav li a:hover {
 }
 
 
-.group-container{
+.group-container {
     padding: 94px 0;
 }
 
 .feature1, .feature2, .feature3, .feature4 {
     margin-bottom: 10px;
+    margin-right: 48px;
 }
 
 .text-container {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: baseline;
    margin-right: -55px;
 }
 
@@ -371,11 +374,11 @@ h5 {
 .employe-container {
     display: flex;
     justify-content: space-around;
-    height: 648px;
+    height: 628px;
     align-items: center;
 }
 
-.employe-container li {
+.employe-container  {
   border-radius: 0px,0px,4px,4px ;
 }
 
@@ -395,14 +398,38 @@ h5 {
     padding-top: 10px;
 }
 
-.icons1 {
+.icons1, .icons2, .icons3, .icons4 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: start;
     margin-top: 16px;
 }
 
+.regular-customers {
+    width: 1170px;
+    height: 184px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.regular-text {
+    font-family: var(--link-text);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.client1 {
+    border-radius: 1px;
+    border-color: rgba(175, 177, 184, 1);
+}
+
+.customers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 footer {
     background: #2F303A;
