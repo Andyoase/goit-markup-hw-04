@@ -288,6 +288,10 @@ nav li a:hover {
     padding: 94px 0;
 }
 
+.feature1, .feature2, .feature3, .feature4 {
+    margin-bottom: 10px;
+}
+
 .text-container {
    display: flex;
    flex-direction: row;
