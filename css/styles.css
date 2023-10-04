@@ -404,9 +404,9 @@ h5 {
     
 }
 
-.employe-container li {
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+.employes  {
+    border-radius: 0 0 4px 4px solid #FFFFFF;
+    box-shadow: 0 0 4px 4px #000000 20%;
 }
 
 
@@ -426,7 +426,7 @@ h5 {
     padding-top: 10px;
 }
 
-.icons1, .icons2, .icons3, .icons4 {
+.team-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
