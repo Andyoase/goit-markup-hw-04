@@ -303,16 +303,28 @@ nav li a:hover {
     padding: 94px 0;
 }
 
-.feature1, .feature2, .feature3, .feature4 {
-    margin-bottom: 10px;
-    margin-right: 48px;
+.features  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.features .feature {
+   width: 270px;
+}
+
+.features .feature .feature-description p {
+   
 }
 
 .text-container {
    display: flex;
    flex-direction: row;
-   justify-content: baseline;
-   margin-right: -55px;
+   justify-content: space-between;
+}
+
+.text {
+    padding-top: 25px;
 }
 
 
@@ -437,12 +449,15 @@ h5 {
 }
 
 
-.customers-container {
+.customer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.customer {
     border-radius: 4px;
-    border: 1px rgba(175, 177, 184, 1);
+    border: 1px solid #AFB1B8;
 }
 
 footer {
