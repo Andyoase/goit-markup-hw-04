@@ -214,6 +214,20 @@ nav li a:hover {
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
+}
+
+.smartphone {
+   width: 0.625em;
+}
+    
+
+.smartphone {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
     margin-right: 10px;
 }
 
