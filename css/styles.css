@@ -620,7 +620,7 @@ a {
     text-decoration: none;
 }
 
-.nav-contact {
+.contacts {
     color: var(--link-hover-color);
     font-family: var(--link-text);
     text-decoration: none;
@@ -629,12 +629,12 @@ a {
     line-height: 16.41px;
 }
 
-.nav-contact a {
+.contacts a {
     padding-right: 20px;
     color: #757575;
 }
 
-.nav-contact a:hover {
+.contacts a:hover {
     color: #2196F3;
 }
 
