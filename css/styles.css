@@ -326,8 +326,8 @@ nav li a:hover {
    width: 270px;
 }
 
-.features .feature .feature-description p {
-   
+.feature-img {
+   margin-bottom: 20px;
 }
 
 .text-container {
@@ -488,9 +488,9 @@ footer {
 .footer-child-container:nth-child(2) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;
-    padding-left: 100px;
+    justify-content: space-between;
+   margin-left: 120px;
+   margin-bottom: 70px;
 }
 
 .footer-parent-container address,
@@ -526,9 +526,13 @@ footer {
 }
 
 .social {
+    display: flex;
     font-family: var(--link-text);
     font-weight: 700;
     color:rgba(255, 255, 255, 1);
+    margin-top: -15px;
+    margin-bottom: 25px;
+    
 }
 
 .footer-adress {
