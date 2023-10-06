@@ -535,7 +535,7 @@ footer {
     
 }
 
-.footer-adress {
+.footer-adress p {
     font-family: var(--link-text);
     font-weight: 400;
     color: #FFFFFF;
