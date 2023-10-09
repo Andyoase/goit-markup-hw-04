@@ -543,10 +543,14 @@ footer {
     color: #FFFFFF;
 }
 
-.social-icons {
+.social-icons  {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+}
+
+.icons {
+    margin-left: 5px;
+    padding-right: 8px;
 }
 
 
