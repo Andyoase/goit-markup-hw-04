@@ -576,11 +576,25 @@ footer {
   flex-direction: row;
 }
 
-.icons {
-    margin-left: 5px;
-    padding-right: 8px;
+.social-icons li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    clip-path: circle(45%);   
+    border-radius: 50%;
 }
 
+.social-icons li + li {
+    margin-left: 10px;
+}
+
+.social-icons li:hover {
+    background-color:rgba(33, 150, 243, 1);
+    cursor: pointer;
+}
 
 
 /* general */
