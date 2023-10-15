@@ -442,9 +442,12 @@ h5 {
     background-color: #fff;
     clip-path: circle(45%);
     border-radius: 50%;
+    fill: #AFB1B8;
 }
 
-.team:hover   {
+
+.team:hover  {
+    fill: white;
     background-color: var(--link-hover-color);
     cursor: pointer;
 }
